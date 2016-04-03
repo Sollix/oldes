@@ -102,24 +102,27 @@ section {
 }
 
 #internetz {
-	height: 100px;
+	height: 35px;
 	background-color: #111;
 }
 
 #internetz ol {
-	margin: 0;
+	margin: 0 auto;
 }
 
 #internetz li {
 	list-style: none;
-	display: inline;
-	text-align: center;
+	display: inline-block;
 	color: #fff;
-	margin-right: 90px;
+	text-align: center;
 	font-size: 24px;
 	font-family: 'Quicksand', sans-serif;
+	width: 24%;
+	padding-top: 3px;
 }
 
 #internetz li a {
 	text-decoration: none;
+	text-align: center;
+	color: #fff;
 }
